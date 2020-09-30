@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}
+Registration Page
+{% endblock %}
+{% block content %}
+<div class="login-box" style="color:#eeeeee">
+  <h2>Messenger</h2>
+  <br/>
+  <p>This appears to be your first time here! Enter your name below.</p>
+  <form action="#" method="POST">
+    <div class="form-group">
+      <label>Name:</label>
+      <input type="text" class="form-control" placeholder="Enter your name" name="username" value="{{username if username}}">
+    </div>
+    <button type="submit" style="float:right;"class="btn btn-primary" value="submit">Submit</button>
+    <small class="form-text text-muted">This name will be your display name to other users.</small>
+    <br />
+  </form>
+</div>
+
+{% endblock %}
