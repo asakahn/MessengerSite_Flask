@@ -46,6 +46,117 @@ body {
   border-color: #393e46;
 }
 
+.home-friends-box {
+  background-color: #393e46;
+  padding: 10px 10px 0px 10px;
+  height: 600px;
+}
+
+.home-friends-box .user-friend-box {
+  padding: 10px 10px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.dark-box {
+  background-color: #222831;
+}
+
+.dark-box:hover {
+  background-color: #484c54;
+}
+
+.dark-box-active {
+  background-color: #484c54;
+}
+
+.light-box {
+  background-color: #393e46;
+}
+
+.light-box:hover {
+  background-color: #484c54;
+}
+
+.light-box-active {
+  background-color: #484c54;
+}
+
+.home-chat-box {
+  background-color: #393e46;
+  padding: 10px 10px 10px 10px;
+}
+
+
+.friends-container {
+  width: 100%;
+  height: 550px;
+  overflow: auto;
+}
+
+.chat-container {
+  width: 100%;
+  height: 480px;
+  overflow: auto;
+}
+
+.user-chat-box-sender {
+  background-color: #00848a;
+  display: block;
+  clear: both;
+  float: right;
+  max-width: 75%;
+  height: auto;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-chat-box-receiver {
+  background-color: #222831;
+  max-width: 75%;
+  height: auto;
+  display: block;
+  float: left;
+  clear: both;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.chat-input {
+  margin-top: 10px;
+  width: 90%;
+  height: 50px;
+  word-break: break-word;
+  padding: 5px;
+}
+
+.send-button {
+  background-color: #00848a;
+  color: #eee;
+  border: 0px;
+  margin-top: 10px;
+  height: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .chat-input {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .chat-input {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .chat-input {
+    width: 75%;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
   .login-box {
     display: block;
